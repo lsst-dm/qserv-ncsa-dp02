@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "ForcedSourceOnDiaObject",
+    "index": "idx_forcedSourceOnDiaObjectId",
+    "spec": "UNIQUE",
+    "comment": "The unique index on the primary key for the force source identifiers",
+    "columns": [
+        {
+            "column": "forcedSourceOnDiaObjectId",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

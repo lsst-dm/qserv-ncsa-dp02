@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "DiaObject",
+    "index": "idx_ra",
+    "spec": "DEFAULT",
+    "comment": "The index on the spatial coordinate ra",
+    "columns": [
+        {
+            "column": "ra",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

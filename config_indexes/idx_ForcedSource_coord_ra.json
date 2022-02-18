@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "ForcedSource",
+    "index": "idx_coord_ra",
+    "spec": "DEFAULT",
+    "comment": "The index on the spatial coordinate ra",
+    "columns": [
+        {
+            "column": "coord_ra",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "ForcedSource",
+    "index": "idx_forcedSourceId",
+    "spec": "DEFAULT",
+    "comment": "The non-unique index on the force source identifiers",
+    "columns": [
+        {
+            "column": "forcedSourceId",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

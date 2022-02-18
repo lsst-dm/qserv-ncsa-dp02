@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "DiaObject",
+    "index": "idx_decl",
+    "spec": "DEFAULT",
+    "comment": "The index on the spatial coordinate decl",
+    "columns": [
+        {
+            "column": "decl",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

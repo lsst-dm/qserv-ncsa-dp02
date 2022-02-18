@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "Source",
+    "index": "idx_sourceId",
+    "spec": "UNIQUE",
+    "comment": "The unique index on the primary key for the source identifiers",
+    "columns": [
+        {
+            "column": "sourceId",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

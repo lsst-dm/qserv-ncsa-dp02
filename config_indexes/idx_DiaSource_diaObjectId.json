@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "DiaSource",
+    "index": "idx_diaObjectId",
+    "spec": "DEFAULT",
+    "comment": "The non-unique index on the foreign key for the object identifiers",
+    "columns": [
+        {
+            "column": "diaObjectId",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

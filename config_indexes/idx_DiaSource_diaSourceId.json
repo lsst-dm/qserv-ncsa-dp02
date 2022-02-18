@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "DiaSource",
+    "index": "idx_diaSourceId",
+    "spec": "DEFAULT",
+    "comment": "The non-unique index on the source identifiers",
+    "columns": [
+        {
+            "column": "diaSourceId",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}

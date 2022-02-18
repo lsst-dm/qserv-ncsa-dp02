@@ -1,0 +1,15 @@
+{
+    "database": "dp02_test_PREOPS863_00",
+    "table": "DiaSource",
+    "index": "idx_coord_dec",
+    "spec": "DEFAULT",
+    "comment": "The index on the spatial coordinate dec",
+    "columns": [
+        {
+            "column": "coord_dec",
+            "length": 0,
+            "ascending": 1
+        }
+    ],
+    "auth_key": ""
+}
