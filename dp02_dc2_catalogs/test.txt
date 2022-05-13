@@ -1,0 +1,7 @@
+SELECT COUNT(*) FROM dp02_dc2_catalogs.Object";
++-----------+
+| COUNT(*)  |
++-----------+
+| 278318452 |
++-----------+
+
