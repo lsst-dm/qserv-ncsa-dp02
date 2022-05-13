@@ -5,9 +5,9 @@ import random
 import requests
 import sys
 
-masterBaseUrl = "http://127.0.0.1:25081"
-authKey = "kukara4a"
-database = "dp02_test_PREOPS863_00"
+masterBaseUrl = ""
+authKey = ""
+database = ""
 
 def info(message, log=sys.stdout):
     log.write("{}\n".format(message))
@@ -103,23 +103,27 @@ def file2overlap(f):
 
 if __name__ == '__main__':
 
-    usage = "usage: <num-trans> <num-proc> <cache-file>"
+    usage = "usage: <database> <base-url> <auth-key> <num-trans> <num-proc> <cache-file>"
 
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 7:
         info(usage)
         sys.exit(1)
 
-    numTrans = int(sys.argv[1])
+    database = sys.argv[1]
+    masterBaseUrl = sys.argv[2]
+    authKey = sys.argv[3]
+
+    numTrans = int(sys.argv[4])
     if numTrans < 1:
         info("error: the number of transactions must be 1 or higher")
         sys.exit(1)
 
-    numProc = int(sys.argv[2])
+    numProc = int(sys.argv[5])
     if numProc < 1:
         info("error: the number of processes must be 1 or higher")
         sys.exit(1)
 
-    cacheFileName = sys.argv[3]
+    cacheFileName = sys.argv[6]
 
     info("Reading locations of input files from JSON file '{}'".format(cacheFileName))
     with open(cacheFileName, "r") as f:
